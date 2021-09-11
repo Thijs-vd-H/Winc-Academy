@@ -1,0 +1,131 @@
+header {
+    color:#000;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 40px;
+
+}
+
+nav {
+    overflow: hidden;
+  }
+
+nav li {
+
+    display: inline;
+    float: left;
+    background-color: rgb(179, 178, 178);
+    border: 1px solid #fff;
+}
+
+nav a {
+
+  display: block;
+  color: #000;
+  padding: 15px;
+  font-size: 20px;
+  text-decoration: none;  
+  text-align: center;
+
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+main{
+
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+footer{
+
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #000;
+    text-decoration: none;
+}
+
+h1{
+    color:#000;
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+ 
+h2 {
+    color:#000;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h3 {
+    color:#000;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+
+
+}
+
+h4 {
+    color:#000;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+p {
+    color:#000;
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+
+}
+
+body { 
+    background-color: lightgray;
+    color: #000;
+}
+
+@media (min-width: 1024px) {
+ 
+body {
+    background-color: #fff;
+}
+        
+p, h2, h3, h4, nav a{
+    color: darkgray;
+    font-size: 10px;
+    line-height: 12px;
+
+}
+
+h1 {
+    color: darkgreen;
+    font-size: 25px;
+}
+        
+nav li{ 
+    background-color: darkgreen;
+}
+}
+
+
+
+
+
+
+
+// Smartphones (portrait)
+minimale breedte : 320px;
+
+// Tablets (portrait)
+minimale breedte : 768px
+
+// Desktop 
+minimale breedte : 1024px
