@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<head>
+    <title> RandomReviews </title>
+</head>
+
+<body>
+    <header>
+        <h1> Contact </h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Random.html">Random</a></li>
+            <li><a href="Films.html">Films</a></li>
+            <li><a href="Series.html">Series</a></li>
+            <li><a href="Tech.html">Tech</a></li>
+            <li><a href="Food.html">Food</a></li>
+            <li><a href="Contact.html">Conctact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2> Titel </h2>
+        <h3> Uitleg in een zin </h3>
+        <p> Alinea tussen 3 en 5 regels <br>widget met reviews </p>
+
+    </main>
+
+    <footer>
+
+        <form name="Ingezonden review" method="POST" data-netlify="true">
+            <p><label>Naam: <input type="text" name="Naam" /></label></p>
+            <p><label>email address: <input type="email" name="email address" /></label></p>
+            <p><label>telefoonnummer: <input type="tel" name="telefoonnummer" /></label></p>
+            <p><label>leeftijd: <input type="number" name="leeftijd" min="1" max="110" /></label></p>
+            <p><label>geboortedatum: <input type="date" name="geboortedatum" /></label></p>
+            <p>Gender:</p>
+            <p><label>Man <input type="radio" id="Man" name="Gender" value="Man"></label></p>
+            <p><label>Vrouw <input type="radio" id="Vrouw" name="Gender" value="Vrouw"></label></p>
+            <p>Favoriete cuisine:</p>
+            <p><label>Frans: <input type="checkbox" name="Frans" value="Favoriet" /></label></p>
+            <p><label>Italiaans: <input type="checkbox" name="Italiaans" value="Favoriet" /></label></p>
+            <p><label>Spaans: <input type="checkbox" name="Spaans" value="Favoriet" /></label></p>
+            <p><label>Arabisch: <input type="checkbox" name="Arabisch" value="Favoriet" /></label></p>
+            <p><label>Favoriete kleur schort: <input type="color" id="schortkleur" name="schortkleur" /></label></p>
+            <p><label>Biografie: <textarea name="Biografie"></textarea></label><br></p>
+            <p><label>Upload laatste recept: <input type="file" name="Bijlage" /></label></p>
+            <p><label>URL naar website: <input type="URL" name="Website" /></label></p>
+            <p><label>Verstuur het formulier: <button type="submit">Inzenden</button></label></p>
+            <p><label>Reset het formulier: <button type="reset">Reset</button></label></p>
+        </form>
+
+    </footer>
+
+</body>
+
+</html>
